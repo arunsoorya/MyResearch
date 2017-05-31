@@ -21,6 +21,16 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    productFlavors {
+        PROD {
+//            def configMap = loadProperties 'QRFlavours/PROD/appConfig.properties'
+//            for (Map.Entry property in configMap) {
+//                buildConfigField "String", property.key as String, property.value as String
+//            }
+//            signingConfig signingConfigs.QRIT
+
+        }
+    }
 }
 
 dependencies {
